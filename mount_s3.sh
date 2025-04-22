@@ -1,7 +1,0 @@
-#!/bin/sh
-BUCKET_NAME=$1
-DIRECTORY=$2
-shift 2
-PASSED_OPTIONS=$*
-mkdir -p ${DIRECTORY}
-mount-s3 ${BUCKET_NAME} ${DIRECTORY} ${PASSED_OPTIONS}
