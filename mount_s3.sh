@@ -1,3 +1,4 @@
+#!/bin/sh
 BUCKET_NAME=$1
 DIRECTORY=$2
 shift 2
